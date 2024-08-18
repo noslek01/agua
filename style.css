@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a2c2e6, #e0f7fa);
+}
+#links{
+    font-size: 14px;
+}
+header {
+    display: flex;
+    background-image: url(capa01.png);
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+#ods{
+    font-size: 21px;
+}
+#titulo{
+    color: darkcyan;
+    font-size: 34px;
+}
+header #container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+nav ul {
+    padding: 0%;
+    list-style: none;
+    display: flex;
+}
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#voltar{
+    font-family: Arial, sans-serif;
+}
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+h3{
+    color: darkslategray;
+}
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 75%;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+}
+
+details {
+    background: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+}
